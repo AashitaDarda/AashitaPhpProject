@@ -12,7 +12,7 @@
     $_SESSION["uid"]=$data['user_id'];
     
    if($data > 0){
-    if(isset($_SESSION["sid"])){
+    if(isset($_SESSION["status"]) != false){
         $_SESSION['user_name'] = $u_id;
         header("Location: http://localhost/StudentRatings/review.php?stu_rev_id=$sid");
 

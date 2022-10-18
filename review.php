@@ -97,7 +97,8 @@
 </html>
 
 <?php } else {   
-    $_SESSION["error"]="you have to login first !"
+    $_SESSION["error"]="you have to login first !";
+    $_SESSION['status']=true;
     
 ?>
    <script>

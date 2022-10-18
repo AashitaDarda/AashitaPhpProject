@@ -26,7 +26,7 @@
             <div class="container">
                 <a class="navbar-brand mb-0 h1 text-white" href="index.php">
                     <img src="./Images/customer.png" alt="Bootstrap" width="40" height="40">
-                    Student Reviwes & Ratings
+                    Student Reviews & Ratings
                 </a>
                 
               <div class="navbar-button text-end" id="navbarSupportedContent">
