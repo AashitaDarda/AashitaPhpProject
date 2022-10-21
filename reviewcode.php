@@ -5,7 +5,7 @@
 
 $rating_data = $_POST['index'] ;
 $user_review = $_POST['user_review'] ;
- $datetime = date('Y-m-d H:i:sa',time());
+ $datetime = date('Y-m-d');
  $sid=$_SESSION["sid"];
  $uid=$_SESSION["uid"];
 

@@ -144,15 +144,13 @@
  </p>
                  
                   <p class="card-text"><?php echo $data_review['user_review'] ?></p>
+                  <p class="card-text text-secondary" style="font-size:13px;"> Date:  <?php echo $data_review['date'] ?></p>
                   <p class="card-text text-end">
                   -  <?php echo $data_review['user_name']; ?>
                   </p>
                 </div>
+                <hr>
                 <?php } ?>
-               
-                <hr>
-                
-                <hr>
               </div>
             </div>
 
