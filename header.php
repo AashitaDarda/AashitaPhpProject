@@ -116,7 +116,7 @@
                                     <label for="inputName" class="col-sm-4 col-form-label">Name</label>
                                     <div class="col-sm-8">
                                         <input type="text" class="form-control" name="inputName" id="inputName" placeholder="Enter your name" required>
-                                        <div class="invalid-feedback">
+                                        <div class="invalid-feedback" id="invalid_name">
                                             Enter User Name!
                                         </div>
                                     </div>
@@ -125,7 +125,7 @@
                                     <label for="inputEmail" class="col-sm-4 col-form-label">Email</label>
                                     <div class="col-sm-8">
                                         <input type="email" class="form-control" name="inputEmail" id="inputEmail" placeholder="Enter your email" required>
-                                        <div class="invalid-feedback">
+                                        <div class="invalid-feedback" id="invalid_email">
                                             Enter User Email!
                                         </div>
                                     </div>
@@ -134,7 +134,7 @@
                                     <label for="inputPassword" class="col-sm-4 col-form-label">Password</label>
                                     <div class="col-sm-8">
                                         <input type="password" class="form-control" name="inputPassword" id="inputPassword" placeholder="Enter your password" required>
-                                        <div class="invalid-feedback">
+                                        <div class="invalid-feedback" id="invalid_pass">
                                             Enter Password!
                                         </div>
                                     </div>

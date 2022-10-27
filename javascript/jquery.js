@@ -60,10 +60,23 @@ $(document).ready(function(){
         var conpass =$('#inputConPassword').val();
 
         if(pass === conpass){
-            $('#invalid_feedback').html('Password Matched').css('color','green').fadeIn(3000);
+            $('#invalid_feedback').html('Password Matched').css('color','green').fadeOut(3000);
         }
         else{
             $('#invalid_feedback').html('Password didnot Matched').css('color','red');
         }
     })
+
+    $('#inputName').on('keyup',function(){
+        var name = $('#inputName').val();
+        var namepattern = /^[a-zA-Z\s_, ]*$/;
+        if(namepattern.test(name) && name.length > 2){
+            $('#invalid_name').hide();
+        }
+        else{
+            $('#invalid_name').html('!!Should contain only Characters and name length should be start with 3 letters!!')
+        }
+    })
 })
+
+

@@ -17,7 +17,7 @@ if($data > 0){
   $_SESSION["msg"]="You have only one chance for giving review to one student";
   header("location: http://localhost/StudentRatings/review.php?stu_rev_id=$sid");
 } else {
-  $sql = "INSERT INTO review( user_rating, user_review,datetime,logger_id,sid) 
+  $sql = "INSERT INTO review( user_rating, user_review,date,logger_id,sid) 
         VALUES ('$rating_data','$user_review','$datetime','$uid','$sid')";
         $result = $conn->query($sql);
 
